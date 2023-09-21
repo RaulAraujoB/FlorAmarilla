@@ -146,7 +146,7 @@ function DibujarFlorSinTallo(x, y, NumeroPetalos, RadioXPetalo, RadioYPetalo, Al
         // Dibuja el centro de la flor
         ctx.beginPath();
         ctx.arc(x, y, 10, 0, Math.PI * 2);
-        ctx.fillStyle = 'white';
+        ctx.fillStyle = 'brown';
         ctx.fill();
       }
       dibujarSiguientePetalo();

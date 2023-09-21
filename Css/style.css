@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Inclusive Sans', sans-serif;
-    background: linear-gradient(70deg, blue, purple, pink);
+    background:pink;
 }
 
 h1 {
@@ -11,6 +11,7 @@ h1 {
 
 .Con-2 {
     display: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 canvas {
@@ -30,14 +31,17 @@ canvas {
     place-content: center;
     align-items: center;
     margin-top: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .Texto {
     display: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .Texto h2 {
     font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #B12 {
@@ -47,12 +51,12 @@ canvas {
 .Button{
     font-family: monospace;
     font-size: x-large;
-    transition-duration: 0.2s;
-    padding: 10px;
+    transition-duration: 0.5s;
+    padding: 30px;
     border-radius: 8px;
-    background-color: greenyellow; 
+    background-color: lightblue; 
     color: black; 
-    border: 2px solid green;
+    border: 3px solid yellow;
     cursor: pointer;
 }
   
@@ -92,6 +96,8 @@ canvas {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     text-align: center;
     animation: aparecer 0.5s ease-out;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
 @keyframes aparecer {
